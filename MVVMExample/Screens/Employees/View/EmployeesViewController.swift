@@ -57,7 +57,7 @@ extension EmployeesViewController: UITableViewDelegate {
 
 extension EmployeesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.employeeCellModels.count
+        return viewModel.employeeCellViewModels.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
