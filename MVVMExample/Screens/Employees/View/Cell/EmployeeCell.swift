@@ -13,8 +13,8 @@ class EmployeeCell: UITableViewCell {
     @IBOutlet var salaryLabel: UILabel!
     @IBOutlet var ageLabel: UILabel!
 
-    class var identifier: String { return String(describing: self) }
-    class var nib: UINib { return UINib(nibName: identifier, bundle: nil) }
+    static var identifier: String { return String(describing: self) }
+    static var nib: UINib { return UINib(nibName: identifier, bundle: nil) }
 
     var cellViewModel: EmployeeCellViewModel? {
         didSet {
