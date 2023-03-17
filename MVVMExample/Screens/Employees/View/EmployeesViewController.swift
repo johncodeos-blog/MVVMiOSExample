@@ -8,7 +8,7 @@
 import UIKit
 
 class EmployeesViewController: UIViewController {
-    @IBOutlet var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
 
     lazy var viewModel = {
         EmployeesViewModel()

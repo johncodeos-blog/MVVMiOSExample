@@ -8,10 +8,10 @@
 import UIKit
 
 class EmployeeCell: UITableViewCell {
-    @IBOutlet var idLabel: UILabel!
-    @IBOutlet var nameLabel: UILabel!
-    @IBOutlet var salaryLabel: UILabel!
-    @IBOutlet var ageLabel: UILabel!
+    @IBOutlet weak var idLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var salaryLabel: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
 
     static var identifier: String { return String(describing: self) }
     static var nib: UINib { return UINib(nibName: identifier, bundle: nil) }
